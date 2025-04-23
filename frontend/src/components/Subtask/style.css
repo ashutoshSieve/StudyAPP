@@ -1,0 +1,128 @@
+.subtask-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.subtask-card:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #2D89FF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1d67d1;
+}
+
+button:focus {
+    outline: none;
+}
+
+.subtask-inputs {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.subtask-inputs input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.subtask-inputs button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subtask-inputs button:hover {
+    background-color: #218838;
+}
+
+.super-subtask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-top: 12px;
+    padding: 12px;
+}
+
+.super-subtask label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.super-subtask span {
+    font-size: 14px;
+    color: #333;
+}
+
+.super-subtask select {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.super-subtask input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.super-subtask span.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.super-subtask select:focus,
+.subtask-inputs input:focus {
+    border-color: #2D89FF;
+    outline: none;
+}
+
+.subtask-card input:focus,
+.subtask-card textarea:focus {
+    border: 2px solid #2D89FF;
+    box-shadow: 0 0 5px rgba(45, 137, 255, 0.3);
+}
+
+
+.analysis-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.analysis-link:hover {
+    text-decoration: none;
+}

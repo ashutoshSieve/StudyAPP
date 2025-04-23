@@ -1,0 +1,114 @@
+.signupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #eaf6ff, #ffffff);
+  }
+  
+  .signupCard {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signupTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .signupForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .inputField {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccd6dd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #3498db;
+  }
+  
+  .passwordContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .togglePassword {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .signupButton {
+    padding: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signupButton:hover {
+    background-color: #2a80b9;
+  }
+  
+  .message {
+    color: #e74c3c;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .signupText {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    margin: 1.5rem 0 0.5rem;
+  }
+  
+  .googleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #db4437;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .googleButton:hover {
+    background-color: #c1351d;
+  }
+  
+  .googleIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  

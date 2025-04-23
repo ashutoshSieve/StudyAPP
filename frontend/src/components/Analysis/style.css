@@ -1,0 +1,69 @@
+.analysis-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.completion-box {
+    background-color: #f0f9ff;
+    border-left: 6px solid #3b82f6;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.difficulty-section {
+    margin-bottom: 2rem;
+}
+
+.difficulty-box {
+    display: flex;
+    gap: 2rem;
+}
+
+.diff-col {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.diff-col h4 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.diff-col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.diff-col li {
+    background: #fff;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+}
+
+.easy { border-left: 5px solid #4ade80; }
+.medium { border-left: 5px solid #facc15; }
+.hard { border-left: 5px solid #ef4444; }
+
+
+
+.heatmap-section {
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #fb923c;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
