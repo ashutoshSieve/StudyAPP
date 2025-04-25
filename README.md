@@ -26,7 +26,7 @@ A full-stack web application that helps users track daily activities with a beau
 - **Express.js**
 - **MongoDB with Mongoose**
 - **Google Drive API for document storage**
-- **JWT Authentication (optional)**
+- **JWT Authentication **
 
 ---
 
